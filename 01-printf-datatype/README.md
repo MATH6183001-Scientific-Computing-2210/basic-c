@@ -43,3 +43,12 @@ The notation `%` is called a format specifier.
 Below is a table showing list of format specifiers and data types.
 
 ![table format specifier](https://i0.wp.com/masterprograming.com/wp-content/uploads/2019/09/format-specifiers-in-c-language.jpg "table format specifier")
+
+### Basic rules
+
+- C is a static type language.
+    It means that you need to define a data type for a variable.
+
+- C is also a case-sensitive language.
+- A statement in C must be ended with the semicolon character, i.e., `;`
+
