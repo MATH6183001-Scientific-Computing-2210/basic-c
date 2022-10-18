@@ -37,7 +37,7 @@ One of them is `printf`.
 At this stage and as an example, an easy way to use it as follows.
 
 ![printf prototype](https://upload.wikimedia.org/wikipedia/commons/2/2c/Printf.svg "printf prototype")
-
+or open [this](https://upload.wikimedia.org/wikipedia/commons/2/2c/Printf.svg)
 
 The notation `%` is called a format specifier. 
 Below is a table showing list of format specifiers and data types.
