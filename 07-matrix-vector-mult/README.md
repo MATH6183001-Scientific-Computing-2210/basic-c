@@ -1,7 +1,7 @@
 # 07-matrix-vector-multiplication
 
 This folder contains C sample codes to perform a matrix-vector multiplication.
-More specifically, suppose we have a $N\times 1$ vector $\bold{v}$ and a $N\times N$ matrix $\bold{M}$, then we want to calculate a vector $\bold{b}$ as:
+More specifically, suppose we have a $N\times 1$ vector $**v**$ and a $N\times N$ matrix $\bold{M}$, then we want to calculate a vector $\bold{b}$ as:
 $$\bold{b} = \bold{M} \bold{v}$$
 
 ## How to run
