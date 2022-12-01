@@ -10,5 +10,5 @@ utils.o: utils/utils.c
 	${CC} -o utils.o -c utils/utils.c
 
 clean:
-	rm *.o
-	rm *.out
+	rm -f *.o
+	rm -f *.out
