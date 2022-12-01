@@ -22,8 +22,7 @@ void printVec(int* v, int N){
     printf("]\n");
 }
 
-int* matVecMult(int* M, int* v, int N){
-    int vo[N];
+void matVecMult(int* M, int* v, int* vo, int N){
 
     for(int i=0; i<N; i++){
         vo[i]=0;
@@ -32,5 +31,4 @@ int* matVecMult(int* M, int* v, int N){
         }
     }
 
-    return vo;
 }

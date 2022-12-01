@@ -33,7 +33,7 @@ int main(void){
     int N = 3;
     int* M = (int *) malloc(N*N*sizeof(int));
     int* v = (int *) malloc(N*sizeof(int));
-    int *b;
+    int* b = (int *) malloc(N*sizeof(int));
 
     if(M == NULL | v == NULL){
         printf("Malloc is failed \n");
@@ -45,13 +45,14 @@ int main(void){
         initVec(v, N);
         printf("v=");
         printVec(v, N);
-        b = matVecMult(M,v,N);
+        matVecMult(M,v,b,N);
         printf("b=");
         printVec(b, N);
     }
 
     free(M);
     free(v);
+    free(b);
 
     return 0;
 }
